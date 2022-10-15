@@ -211,13 +211,8 @@ body {
 
 .gift-list {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 30px;
-}
-
-.gift-item {
-  width: 270px;
 }
 
 .low-title {
@@ -243,8 +238,6 @@ body {
 
 .bgc {
   background-color: #fafafa;
-  border: 1px solid #eeeeee;
-  border-top: none;
 }
 
 /* work-us */
