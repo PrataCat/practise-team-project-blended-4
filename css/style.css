@@ -315,6 +315,7 @@ body {
   background-color: var(--primary-white-color);
   cursor: pointer;
 }
+
 /* --- blogs ----*/
 .blog-title {
   display: flex;
