@@ -55,7 +55,7 @@ body {
   font-size: 18px;
   line-height: 2.17;
   color: #231f20;
-  margin-right: 433px;
+  margin-right: 485px;
   padding-top: 39px;
   padding-bottom: 38px;
 }
@@ -63,7 +63,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .header-nav {
@@ -84,9 +84,11 @@ body {
 .header-btn {
   font-size: 18px;
   line-height: 22px;
+  margin-left: 373px;
+  margin-right: 37px;
   text-transform: uppercase;
-  color: #f7941e;
-  border: 1px solid #f7941e;
+  color: var(--orange);
+  border: 1px solid var(--orange);
   border-radius: 5px;
   background-color: transparent;
   padding: 13px 25px;
@@ -128,7 +130,7 @@ body {
   line-height: calc(22 / 18);
   text-transform: uppercase;
   color: #ffffff;
-  background: #f7941e;
+  background: var(--orange);
   border-radius: 5px;
   cursor: pointer;
   padding: 19px 25px;
@@ -160,10 +162,10 @@ body {
   font-size: 18px;
   line-height: 1.34;
   text-transform: uppercase;
-  color: #f7941e;
+  color: var(--orange);
 
   padding: 21px 47px;
-  border: 1px solid #f7941e;
+  border: 1px solid var(--orange);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -323,7 +325,6 @@ body {
   justify-content: center;
   font-size: 32px;
   line-height: calc(38 / 32);
-  color: var(--primary-black-color);
   margin-top: 88px;
   margin-bottom: 23px;
 }
@@ -332,7 +333,6 @@ body {
   font-size: 18px;
   line-height: calc(24 / 18);
   text-align: center;
-  color: var(--primary-black-color);
   margin-bottom: 71px;
 }
 .article {
