@@ -35,7 +35,7 @@ img {
 
 body {
   font-family: 'Gilroy', sans-serif;
-  color: var(--primary-text-color);
+  color: var(--primary-black-color);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -112,23 +112,18 @@ body {
 }
 
 .hero-tittle {
-  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   line-height: 1.23;
-  color: #000000;
   margin-bottom: 36px;
 }
 
 .hero-text {
-  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   line-height: 1.4;
-  color: #000000;
   margin-bottom: 52px;
 }
 
 .hero-btn {
-  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: calc(22 / 18);
   text-transform: uppercase;
@@ -151,7 +146,6 @@ body {
 .sec2-h2 {
   font-size: 32px;
   line-height: 1.4;
-  color: #000000;
   margin-bottom: 23px;
 }
 
@@ -159,8 +153,6 @@ body {
   font-size: 20px;
   line-height: 1.4;
   text-align: justify;
-  color: #000000;
-
   margin-bottom: 35px;
 }
 
@@ -188,7 +180,6 @@ body {
   justify-content: center;
   font-size: 32px;
   line-height: calc(38 / 32);
-  color: var(--primary-black-color);
   margin-top: 96px;
   margin-bottom: 23px;
 }
@@ -197,7 +188,6 @@ body {
   font-size: 18px;
   line-height: calc(24 / 18);
   text-align: center;
-  color: var(--primary-black-color);
   margin-bottom: 64px;
 }
 
@@ -214,7 +204,6 @@ body {
   margin-bottom: 74px;
   font-size: 20px;
   line-height: calc(24 / 20);
-  color: #000000;
 }
 
 .low-text {
@@ -256,14 +245,12 @@ body {
   font-weight: bold;
   line-height: calc(45 / 32);
   padding-top: 55px;
-  color: var(--primary-black-color);
 }
 
 .work-us-text {
   font-size: 32px;
   line-height: calc(45 / 32);
   padding-bottom: 69px;
-  color: var(--primary-black-color);
 }
 
 .work-us-list {
@@ -340,16 +327,20 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.current {
+  display: flex;
+  justify-content: center;
 }
 
 .current::after {
   content: '';
   position: absolute;
+  bottom: 0;
   width: 1100px;
-  left: 220px;
-  border: 1px solid #000000;
-  background-color: #000000;
+  border: 1px solid var(--primary-black-color);
+  background-color: var(--primary-black-color);
 }
 
 .footer-list {
@@ -362,16 +353,13 @@ body {
   padding-bottom: 53px;
 }
 .footer-link {
-  font-size: 14px;
   line-height: 1.4;
-  color: #000000;
   padding-top: 115px;
   padding-bottom: 53px;
 }
 
 .footer-link-icon {
   margin-top: 106px;
-  margin-bottom: 43px;
   margin-left: 141px;
   margin-right: 141px;
 }
@@ -391,16 +379,10 @@ body {
 }
 
 .footer-text {
-  font-size: 14px;
   line-height: 1.4;
-  text-align: center;
-  color: #000000;
-
   margin-bottom: 35px;
 }
 .footer-top-text {
-  font-size: 14px;
   line-height: 1.4;
-  color: #000000;
   margin-bottom: 35px;
 }
